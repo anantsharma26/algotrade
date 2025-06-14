@@ -1,68 +1,72 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  padding: 0;
+  margin: 0;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
 }
-a:hover {
-  color: #535bf2;
+ul {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  padding: 0 30px;
+  max-width: 1392px;
+  margin: 0 auto;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--colorlight);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+:root {
+  --white: #dfdfdf;
+  --themeblack: #131313;
+  --greybg: #6c6c6c33;
+  --primary: #51fffd;
+  --btnbg: #0c2f2f;
+  --colorlight: #ebebeb;
+  --basecolor: #103333;
+  --grey: #77798f;
+  --darkgrey: #92939e;
+  --maroon: #c61a3e33;
+  --red: #c61a3e;
+  --green: #219653;
+  --lighttitle: #ecf1f0;
+  --basecolorlight: #51fffd33;
+  --wireframegrey: #c6c6c6;
+  --themeblack2: #1d1429;
+  --greydark: #b1b1b1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+h3.sec-head {
+  font-size: 42px;
+  font-weight: 600;
+}
+h3.mid-head {
+  font-size: 21px;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+h3.mid-head.white {
+  color: #fff;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+h3.sec-head.white {
+  color: #fff;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.container-sm {
+  max-width: 1041px;
+  margin: 0 auto;
 }

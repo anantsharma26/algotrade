@@ -1,0 +1,61 @@
+button.bannerbtn-black {
+  position: relative;
+  background: #010314;
+  padding: 22px 40px;
+  border-radius: 60px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px #7744ffb2;
+}
+
+button.bannerbtn-black::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: 60px;
+  background: linear-gradient(180deg, #51fffd 0%, #007675 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: -1;
+}
+button.bannerbtn {
+  background: #51fffd;
+  padding: 20.5px 69px;
+  border-radius: 60px;
+  font-size: 18px;
+  color: #282828;
+  font-weight: 600;
+  border: 1.5px solid #2a2b3a;
+}
+
+button.featurebtn {
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary);
+  background: var(--btnbg);
+  border: none;
+  align-self: anchor-center;
+  min-height: 47px;
+}
+
+button.small-round {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 13px 30px;
+  border-radius: 100px;
+  border: none;
+  background: var(--primary);
+  color: var(--themeblack);
+}
+.hero.blog .hero-inner .hero-btns button.bannerbtn {
+  max-width: 245px;
+  padding: 20.5px 44px;
+}

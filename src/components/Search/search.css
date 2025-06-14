@@ -1,0 +1,31 @@
+.searchbar {
+  position: relative;
+}
+.searchbar input[type="submit"] {
+  position: absolute;
+  left: 5%;
+  background: url(../public/searchico.png);
+  font-size: 0;
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.searchbar input.search {
+  all: unset;
+  background: #141414;
+  min-height: 44px;
+  min-width: calc(242px - 52px);
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-radius: 6px;
+  padding-left: 50px;
+}
+
+.searchbar input.search::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b6b6b6;
+}
