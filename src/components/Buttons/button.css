@@ -59,3 +59,12 @@ button.small-round {
   max-width: 245px;
   padding: 20.5px 44px;
 }
+
+.shadow-btn {
+  all: unset;
+  background: #161616;
+  padding: 10px 13px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 400;
+}
