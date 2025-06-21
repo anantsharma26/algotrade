@@ -100,7 +100,7 @@ header .main-head nav {
 
 /* core investment  */
 
-section.coreinvert {
+.coreinvert {
   padding: 213px 0 0;
   text-align: center;
 }
@@ -783,6 +783,7 @@ section.coreinvert {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+  margin-bottom: 55px;
 }
 .copyright-box p {
   color: #fff;
@@ -1527,4 +1528,301 @@ section.coreinvert {
 }
 .getintouch .contact-form .form-box button.small-round {
   margin-top: 30px;
+}
+
+.strategy {
+  background: url(../public/about-banner.jpg) no-repeat;
+  padding: 127px 0;
+  background-size: cover;
+}
+.strategy .strategy-txt {
+  text-align: center;
+}
+.strategy .strategy-txt h1 {
+  font-size: 100px;
+  line-height: 150px;
+  background: linear-gradient(90deg, #51fffd 0%, #007675 100%);
+  background-clip: text;
+  color: transparent;
+  font-weight: 500;
+}
+.strategy .strategy-txt p {
+  font-size: 30px;
+  font-weight: 500;
+  max-width: 883px;
+  margin: 0 auto;
+}
+.strategy .strategy-txt .txtbg {
+  background: #51fffd1a;
+  display: inline-block;
+  padding: 10px 70px;
+  margin-bottom: 40px;
+}
+
+/* CEDFI  */
+.coreinvert.cedfi {
+  padding: 137px 0 131px;
+}
+.coreinvert.cedfi .feature-list {
+  gap: 50px;
+  margin-top: calc(60px + 30px);
+}
+.coreinvert.cedfi .core-feature {
+  max-width: 430px;
+}
+.feature-description p {
+  color: var(--colorlight);
+}
+.coreinvert.cedfi .core-feature:last-child .feature-icon::before {
+  left: -15px;
+}
+
+/* cedefi strategy  */
+
+.cedefi-strategies {
+  padding: 107px 0 106px;
+  background: #161616;
+}
+.cedefi-strategies h3.sec-head {
+  text-align: center;
+}
+.cedefi-strategies .strategy-numberlist {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.cedefi-strategies .strategy-numberlist .strategy-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 70px 49px;
+  width: 100%;
+}
+.cedefi-strategies .strategy-numberlist .strategy-box:before {
+  content: "";
+  background: #808080;
+  position: absolute;
+  left: 0;
+  width: 3px;
+  height: 50%;
+  top: 0;
+  border-radius: 10px;
+  z-index: 1;
+}
+.cedefi-strategies .strategy-numberlist .strategy-box:after {
+  content: "";
+  background: #1f2026;
+  position: absolute;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  top: 0;
+  border-radius: 10px;
+}
+.cedefi-strategies .strategy-numberlist .strategy-box h4 {
+  font-size: 35px;
+  font-weight: 500;
+  color: var(--primary);
+}
+.cedefi-strategies .strategy-numberlist .strategy-box p {
+  color: var(--colorlight);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Terms  */
+
+.cedefi-terms {
+  padding: 145px 0;
+}
+.cedefi-terms h3.sec-head {
+  text-align: center;
+}
+.cedefi-terms .terms-list .terms-box {
+  background: #51fffd33;
+  padding: 60px 30px 50px;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  min-width: calc(433px - 56px);
+}
+.cedefi-terms .terms-list {
+  display: flex;
+  gap: 40px;
+  margin-top: 60px;
+}
+.cedefi-terms .terms-list .terms-box p {
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5;
+}
+.cedefi-terms .terms-list {
+  counter-reset: section;
+}
+.cedefi-terms .terms-list .terms-box:before {
+  content: " " counter(section) "";
+  position: absolute;
+  counter-increment: section;
+  top: -33px;
+  font-size: 130px;
+  font-weight: 500;
+  color: rgb(255 255 255 / 7%);
+  left: -2px;
+}
+.high-roi.roipage {
+  padding: 0;
+}
+
+/* Advantage Risk  */
+.advantage-risk {
+  padding: 145px 0 208px;
+}
+.advantage-risk h3.sec-head {
+  text-align: center;
+}
+.advantage-risk .factor-row {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.factor-box {
+  max-width: 665px;
+  background: #11b29b1a;
+}
+.factor-box h4.factor-head {
+  padding: 20px 0;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  background: #11b29b;
+}
+.factor-box .features {
+  margin-top: 34px;
+}
+.factor-box .factor-list {
+  padding: 0 38px 60px;
+  display: flex;
+  gap: 25px;
+}
+.factor-box .factor-list .factor-head {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.factor-box .factor-list .factor-head h4 {
+  font-size: 21px;
+  font-weight: 600;
+}
+.factor-box .factor-list .factor-head p {
+  font-weight: 500;
+}
+.factor-box .factor-list p.factor-number {
+  font-size: 30px;
+  font-weight: 500;
+  min-width: 68px;
+  height: 68px;
+  border: 2px solid #11b29b;
+  color: #11b29b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.factor-box.risk h4.factor-head {
+  background: #fc4452;
+}
+.factor-box.risk {
+  background: #fc44521a;
+}
+.factor-box.risk .factor-list p.factor-number {
+  border-color: #fc4452;
+  color: #fc4452;
+}
+
+/* Roi Steps  */
+
+.roi-step {
+  padding-bottom: 144px;
+}
+.roi-step .cols2 {
+  display: flex;
+  gap: 108px;
+  justify-content: space-between;
+  align-items: center;
+}
+.roi-step .stepcount .step-info h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.roi-step .stepcount {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: baseline;
+}
+.roi-step .stepcount .step-info p {
+  font-weight: 500;
+  color: var(--darkgrey);
+}
+.roi-step .cols2 .roi-img {
+  min-width: 332px;
+}
+button.bluebtn {
+  border: none;
+  padding: 8px 30px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #51fffd 0%, #007675 100%);
+  font-size: 21px;
+  font-weight: 500;
+  color: #fff;
+}
+.roi-step.reverse {
+  background: url(../public/roi-bg-reverse.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 128px 0 178px;
+  background-position: center center;
+}
+.roi-step.reverse.top {
+  background: url(../public/roi-bg-reverse-top.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.roi-step .cols2 .stepbox {
+  min-width: 732px;
+}
+.roi-steps-list .roi-step:not(:first-of-type) {
+  padding-top: 194px;
+}
+
+/* Earn Crypto  */
+.earn-crypto {
+  padding: 122px 0 161px;
+}
+.earn-crypto .headbox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 717px;
+  margin: 0 auto;
+}
+.earn-crypto .headbox p {
+  font-weight: 500;
+  color: var(--darkgrey);
+}
+.earn-crypto .assets-box {
+  margin-top: 54px;
+}
+.earn-crypto .assets-box img {
+  width: 100%;
+}
+.performance.roi .performance-list {
+  margin-top: 0;
+}
+.performance.roi {
+  padding-top: 120px;
 }
