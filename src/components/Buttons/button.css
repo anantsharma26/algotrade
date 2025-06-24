@@ -68,3 +68,35 @@ button.small-round {
   font-size: 14px;
   font-weight: 400;
 }
+
+button.border-btn {
+  all: unset;
+  padding: 12px 24px;
+  border: 1px solid;
+  display: flex;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 7px;
+}
+
+.tab-panel .tab-content {
+  margin-top: 32px;
+}
+.tab-panel .tab-content .content-head h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary);
+}
+.tab-panel .tab-content .content-head {
+  margin-bottom: 33px;
+}
+.tab-panel .tab-content .tab-content-part h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.tab-panel .tab-content .tab-content-part p {
+  font-weight: 500;
+  line-height: 1.5;
+}
