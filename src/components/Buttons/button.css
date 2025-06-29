@@ -100,3 +100,33 @@ button.border-btn {
   font-weight: 500;
   line-height: 1.5;
 }
+
+@media (max-width: 1680px) {
+  button.bannerbtn {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .subscribe .subscribe-box input[type="submit"] {
+    top: 2px;
+  }
+}
+
+@media (max-width: 991px) {
+  button.bannerbtn-black {
+    padding: 18px 34px;
+    font-size: 18px;
+  }
+  button.bannerbtn {
+    padding: 18px 57px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  button.bannerbtn-black,
+  button.bannerbtn {
+    font-size: 16px;
+  }
+}

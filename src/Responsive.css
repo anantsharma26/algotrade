@@ -1,0 +1,739 @@
+@media (max-width: 1680px) {
+  .main-head nav a {
+    font-size: 14px;
+  }
+  .hero .hero-inner .hero-txt h1 {
+    font-size: 56px;
+  }
+  .coreinvert {
+    padding: 160px 0 0;
+  }
+  h3.sec-head {
+    font-size: 38px;
+  }
+  .high-roi .roi-info .extra-info {
+    gap: 36px;
+  }
+  .high-roi .roi-info p {
+    font-size: 23px;
+  }
+  .our-partner .partner-list {
+    gap: 69.96px;
+    justify-content: center;
+  }
+  .strategy .strategy-txt p {
+    font-size: 25px;
+  }
+  .hero.blog .hero-inner .hero-txt h1 {
+    font-size: 42px;
+  }
+  .subscribe .subscribe-head h4 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .container {
+    max-width: 100%;
+  }
+  .service-dots {
+    right: -64px;
+  }
+  .high-roi .roi-box {
+    flex-wrap: wrap;
+  }
+  h3.sec-head {
+    font-size: 30px;
+  }
+  .our-partner .partner-list {
+    gap: 39.96px;
+  }
+  .hero .hero-inner .hero-txt h1 {
+    font-size: 50px;
+  }
+  .high-roi .roi-info p {
+    font-size: 20px;
+  }
+  .passive-income .income-list .income-box h4 {
+    font-size: 32px;
+  }
+  .passive-income .income-list .income-box {
+    height: calc(260px - 45px);
+  }
+  .social-handles .social-info h4 {
+    font-size: 18px;
+  }
+  .social-handles .social-info p,
+  .copyright-box p {
+    font-size: 14px;
+  }
+  .performance-box {
+    padding: 18px 25px;
+  }
+  .performance-box .checkout-coinbtn {
+    width: 36px;
+  }
+  .performance-box .coin-info .coin-price h5 {
+    font-size: 22px;
+  }
+  .newsletter-inner h5 {
+    font-size: 24px;
+  }
+  .keysevice .service-row {
+    gap: 50px 90px;
+  }
+  .about-banner .cols-2 p {
+    font-size: 16px;
+  }
+  .about-banner h1 {
+    font-size: 54px;
+  }
+  .acheivement-box {
+    max-width: 750px;
+    padding-top: 90px;
+  }
+  .about-banner .cols-2 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .about-banner h1 {
+    font-size: 42px;
+  }
+  .our-vision .vision-head h3 {
+    margin-bottom: 10px;
+  }
+  .innovation-rows .inovation-cols > div {
+    padding: 37px 20px 37px 25px;
+  }
+  .innovation-rows .inovation-cols h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .strategy .strategy-txt h1 {
+    font-size: 80px;
+  }
+  .coreinvert.cedfi .core-feature {
+    max-width: 363px;
+  }
+  .cedefi-terms .terms-list .terms-box p {
+    font-size: 17px;
+  }
+  .cedefi-terms .terms-list .terms-box {
+    min-width: calc(383px - 56px);
+  }
+  .cedefi-terms .terms-list .terms-box:before {
+    top: -23px;
+    left: 12px;
+  }
+  .hero.blog .hero-inner .hero-txt h1 {
+    font-size: 38px;
+  }
+  .subscribe .subscribe-head h4 {
+    font-size: 25px;
+  }
+  .blog-listing-main .blog-box-main {
+    flex-wrap: wrap;
+  }
+  .contact-banner .bannertxt .contact-btns {
+    flex-direction: column;
+  }
+  .contact-banner .bannertxt {
+    padding: 60px 0 75px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .performance-box {
+    width: calc(315px - 72px);
+  }
+  .performance .performance-list {
+    justify-content: center;
+  }
+  .email-box input {
+    width: 440px;
+    height: 63px;
+  }
+  .review-box {
+    width: calc(282px - 64px);
+  }
+  .reviews-list {
+    gap: 20px;
+  }
+  .trustpilot .review-head h3 {
+    font-size: 40px;
+  }
+  .trustpilot {
+    padding: 108px 0 0;
+  }
+  .passive-income .headbox {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .passive-income .headbox .head-txt {
+    max-width: 100%;
+  }
+  .performance {
+    padding-top: 100px;
+  }
+  .hero .hero-inner::before {
+    background: url(/public/main-bg.jpg) no-repeat 0 0%;
+  }
+  .hero .hero-inner {
+    padding: 106px 80px 90px;
+  }
+  .core-feature {
+    max-width: 285px;
+  }
+  .coreinvert {
+    padding: 110px 0 0;
+  }
+  .keysevice .service-row .service-block {
+    width: calc(416px - 130px);
+  }
+  .service-dots {
+    right: -19px;
+  }
+  .keysevice .service-row {
+    gap: 50px;
+  }
+  .keysevice .service-row .service-block p {
+    font-size: 16px;
+  }
+  .keysevice .service-row .service-block {
+    padding: 37px 80px 25px 50px;
+  }
+  .about-us .about-head .cols2 .headbox {
+    max-width: 50%;
+  }
+  .about-us .about-features .ab-featurebox {
+    max-width: 430px;
+  }
+  .high-roi .roi-info {
+    gap: 15px;
+    flex-direction: column;
+  }
+  .high-roi .roi-info .wallet-btn p {
+    font-size: 14px;
+  }
+  .high-roi .roi-info p {
+    font-size: 17px;
+  }
+  .wallet-btn {
+    padding: 12px 10px;
+  }
+  .high-roi .roi-box .roibox-head h4 {
+    font-size: 16px;
+  }
+  .high-roi .roi-box .roibox-head img.icon {
+    width: 50px;
+  }
+  .high-roi .roi-info .extra-info {
+    gap: 40px;
+  }
+  .container-sm {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  .our-team .team-box .team-featureimg img {
+    width: 320px;
+    height: 300px;
+  }
+  .coreinvert.cedfi .core-feature {
+    max-width: 265px;
+  }
+  .cedefi-terms .terms-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cedefi-terms .terms-list .terms-box {
+    min-width: 40%;
+    max-width: 40%;
+  }
+  .advantage-risk {
+    padding: 145px 0 145px;
+  }
+  .roi-step.reverse {
+    background-size: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .roi-steps-list .roi-step:not(:first-of-type) {
+    padding-top: 100px;
+    background-size: 100%;
+  }
+  .roi-step .cols2 .stepbox,
+  .roi-step .cols2 .roi-img {
+    min-width: 30%;
+  }
+  .faqs .container .cols-2 {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .roi-step {
+    padding-bottom: 100px;
+  }
+  .hero.blog .hero-inner .cols-2 {
+    grid-template-columns: 1fr;
+  }
+  .hero.blog:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(/public/main-bg.jpg) no-repeat 0 0;
+    background-size: 128%;
+    opacity: 0.1;
+    z-index: -1;
+  }
+  .subscribe .col-2 {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .subscribe .col-2 .subscribe-head {
+    align-items: center;
+    justify-content: center;
+  }
+  .subscribe .col-2 .subscribe-head img {
+    top: 0;
+  }
+  .contact-banner .bannerimg {
+    width: 46%;
+  }
+  .contact-banner .bannertxt .contact-btns p a {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .getintouch .col-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .getintouch .contactimg {
+    height: 239px;
+    width: 75%;
+  }
+  .tab-panel .sidebar {
+    min-width: 280px;
+  }
+  .tab-panel .cols-2 {
+    gap: 35px;
+  }
+  .tab-panel .sidebar .sidebar-list ol li a {
+    font-size: 14px;
+  }
+  .tab-panel .tab-content .tab-content-part p {
+    font-size: 14px;
+  }
+  .tab-panel .sidebar {
+    min-width: 245px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile-menu {
+    display: block;
+  }
+  .newsletter-inner {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .newsletter-inner h5 {
+    text-align: center;
+  }
+  .email-box input {
+    width: calc(100% - 60px);
+    height: 63px;
+  }
+  .email-box {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .social-handles {
+    padding-top: 90px;
+  }
+  .passive-income .income-list {
+    flex-wrap: wrap;
+    gap: 25px 0;
+  }
+  .passive-income {
+    padding: 100px 0 100px;
+  }
+
+  header .main-head nav {
+    position: fixed;
+    background: var(--themeblack);
+    width: 0%;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: 9;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+  }
+  header .main-head .brand {
+    width: 70px;
+    z-index: 99;
+    position: relative;
+    mix-blend-mode: difference;
+  }
+  .main-head nav a {
+    font-size: 20px;
+  }
+  .hero .hero-inner .hero-txt h1 {
+    font-size: 36px;
+  }
+  .hero .hero-inner .hero-txt p {
+    font-size: 16px;
+  }
+
+  h3.sec-head {
+    font-size: 24px;
+  }
+  .feature-list {
+    gap: 50px 10px;
+  }
+  .core-feature {
+    max-width: 49%;
+  }
+  .feature-description p {
+    font-size: 14px;
+  }
+  .keysevice .service-row .service-block {
+    width: calc(330px - 130px);
+  }
+  .keysevice .service-row {
+    gap: 50px 47px;
+  }
+  .about-us {
+    padding: 75px 0 48px;
+  }
+  .about-us .about-head .cols2 .headbox {
+    max-width: 100%;
+  }
+  .about-us .about-head .cols2 {
+    gap: 25px;
+  }
+  .about-us .about-features .ab-featurebox {
+    max-width: 47%;
+  }
+  .high-roi .roi-box {
+    justify-content: center;
+    border-radius: 25px;
+  }
+  .high-roi .roi-info .expected-roi {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .high-roi .roi-info .extra-info {
+    gap: 50px;
+    margin-top: 9px;
+  }
+  .passive-income .headbox .head-txt p {
+    font-size: 15px;
+  }
+  .passive-income .income-list .income-box {
+    height: calc(130px - 45px);
+  }
+  .performance-box {
+    width: calc(346px - 72px);
+  }
+  .review-box {
+    width: calc(336px - 64px);
+  }
+  .review-head {
+    max-width: 337px;
+    width: 100%;
+  }
+  .our-team .team-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .strategy .strategy-txt h1 {
+    font-size: 60px;
+  }
+  .strategy .strategy-txt p {
+    font-size: 20px;
+  }
+  .cedefi-strategies .strategy-numberlist {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .cedefi-strategies .strategy-numberlist .strategy-box {
+    width: 32%;
+    gap: 15px;
+  }
+  .cedefi-terms .terms-list .terms-box {
+    min-width: auto;
+    max-width: 35%;
+  }
+  .advantage-risk .factor-row {
+    grid-template-columns: 1fr;
+  }
+  .factor-box {
+    max-width: 100%;
+  }
+  .similar-blog-list {
+    flex-wrap: wrap;
+  }
+  .blog-listing-main .blog-box-main .blog-detail h4 {
+    font-size: 18px;
+  }
+  .blog-listing-main {
+    grid-template-columns: 1fr;
+  }
+  .getintouch .contactimg {
+    height: 324px;
+    width: 100%;
+  }
+  .contact-banner .bannertxt .head-txt h1 {
+    font-size: 35px;
+  }
+  .contact-banner .bannerimg {
+    display: none;
+  }
+  .contact-banner .bannertxt .contact-btns {
+    flex-direction: row;
+  }
+  .contact-banner .bannertxt .contact-btns p a {
+    width: 90%;
+  }
+  .tab-panel .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .high-roi .roi-info .extra-info {
+    gap: 17px 75px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .high-roi .roi-box {
+    padding: 21.5px 20px;
+  }
+  .hero .hero-inner {
+    padding: 106px 20px 90px;
+  }
+  .hero .hero-inner .hero-txt h1 {
+    font-size: 28px;
+    margin-top: 15px;
+  }
+  .hero .hero-inner .hero-txt p {
+    font-size: 13px;
+  }
+  .hero-btns {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .core-feature {
+    max-width: 100%;
+  }
+  .keysevice .service-row .service-container:nth-child(2) {
+    margin-top: 0;
+  }
+  .keysevice .service-row .service-container:nth-child(3) {
+    margin-top: 0;
+  }
+  body {
+    font-size: 14px;
+  }
+  .about-us .about-features {
+    flex-direction: column;
+  }
+  .about-us .about-features .ab-featurebox {
+    max-width: 100%;
+  }
+  h3.sec-head {
+    font-size: 22px;
+  }
+  .our-partner .partner-list {
+    gap: 25px;
+  }
+  h3.mid-head {
+    font-size: 25px;
+  }
+  .review-head {
+    height: auto;
+  }
+  .social-handles .social-row {
+    flex-direction: column;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-links .ftlink {
+    text-align: center;
+  }
+  .ft-logo {
+    margin-top: 30px;
+  }
+  .email-box {
+    width: 90%;
+    text-align: center;
+  }
+  .email-box input[type="submit"] {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: translate(0);
+    margin-top: 10px;
+  }
+  .copyright-box {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .acheivement-box {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .our-vision .cols-2 {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .innovation-rows .inovation-cols {
+    flex-wrap: wrap;
+  }
+  .our-vision .vision-head {
+    text-align: center;
+  }
+  .our-vision .cols-2 .vision-para {
+    max-width: 100%;
+    text-align: center;
+  }
+  .traction-boxes .traction-box {
+    min-width: 80%;
+  }
+  .traction-box {
+    text-align: center;
+  }
+  .milestone .milestone-row {
+    flex-wrap: wrap;
+  }
+  .milestone .milestone-row .milestone-list:before {
+    border-bottom: 18px solid #161616;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    left: 9px;
+    top: -28px;
+  }
+  .milestone .milestone-row:last-child:before {
+    display: block;
+    height: 50%;
+  }
+  .our-team .team-row {
+    gap: 100px;
+  }
+  .strategy .strategy-txt h1 {
+    font-size: 42px;
+  }
+  .strategy .strategy-txt p {
+    font-size: 16px;
+  }
+  .strategy {
+    padding: 100px 0;
+  }
+  .coreinvert.cedfi .core-feature {
+    max-width: 100%;
+  }
+  .cedefi-strategies .strategy-numberlist .strategy-box {
+    width: 100%;
+  }
+  .cedefi-terms .terms-list .terms-box {
+    max-width: 100%;
+  }
+  .factor-box .factor-list {
+    flex-wrap: wrap;
+  }
+  .factor-box h4.factor-head {
+    font-size: 22px;
+  }
+  .roi-step.reverse,
+  .roi-step.reverse.top {
+    background: none;
+  }
+  .roi-step .cols2 {
+    flex-direction: column-reverse;
+    gap: 22px;
+  }
+  .roi-step.reverse .cols2 {
+    flex-direction: column;
+  }
+  .roi-steps-list .roi-step:not(:first-of-type) {
+    padding-top: 50px;
+  }
+  .roi-step .stepcount {
+    text-align: center;
+  }
+  .roi-step .stepcount button.bluebtn {
+    margin: auto;
+  }
+  .roi-step {
+    padding-bottom: 50px;
+  }
+  .earn-crypto {
+    padding: 50px 0 100px;
+  }
+  .faqs-list .faq-box {
+    padding: 25px 70px;
+  }
+  .faqs .faqs-list .faq-box h4.faq-head {
+    font-size: 16px;
+  }
+  .copyright-box {
+    justify-content: center;
+  }
+  .hero.blog .hero-inner {
+    padding: 76px 0 131px;
+  }
+  .hero.blog .hero-inner .hero-txt h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .hero.blog .hero-inner .hero-txt p {
+    text-align: center;
+  }
+  .hero.blog .hero-inner .hero-btns {
+    justify-content: center;
+  }
+  .hero.blog .hero-inner .hero-btns button.bannerbtn {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .subscribe .subscribe-box {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .subscribe .subscribe-box input[type="submit"] {
+    position: relative;
+  }
+  .subscribe .col-2 .subscribe-head {
+    flex-direction: column;
+    text-align: center;
+  }
+  .subscribe .col-2 .subscribe-head img {
+    justify-content: center;
+  }
+  .blog-category-list ul {
+    flex-wrap: wrap;
+  }
+  .contact-banner .bannertxt .contact-btns {
+    flex-direction: column;
+  }
+  .getintouch {
+    padding: 100px 0 0;
+  }
+  .getintouch .contact-form .form-box {
+    width: calc(100% - 30px);
+    min-width: auto;
+    padding: 15px;
+  }
+  .getintouch .col-2 .contact-form {
+    width: 100%;
+  }
+}
