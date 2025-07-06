@@ -1,0 +1,69 @@
+/* Sidebar panel  */
+
+.sidebar {
+  background: #51fffd33;
+  padding: 20px 20px 134px;
+  min-width: 328px;
+  border-radius: 12px;
+}
+.sidebar .main-head {
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+}
+.sidebar .main-head h5 {
+  font-size: 21px;
+  font-weight: 600;
+}
+.sidebar .sidebar-list ol {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.sidebar .sidebar-list ol li.has-menu {
+  width: max-content;
+  position: relative;
+}
+.sidebar .sidebar-list ol li.has-menu:before {
+  content: url(../public/arrow-right-white.svg);
+  position: absolute;
+  right: -17px;
+  top: 2px;
+  width: 10px;
+  height: 10px;
+}
+.sidebar .sidebar-list ol li a {
+  color: var(--colorlight);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.sidebar .sidebar-list ul.sub-list {
+  padding: 0 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-left: 3px solid rgb(255 255 255 / 20%);
+  margin-top: 0;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+}
+.sidebar .sidebar-list ol li.has-menu.active .sub-list {
+  height: auto;
+  margin-top: 28px;
+  transition: 0.4s ease-in-out;
+}
+.sidebar .sidebar-list ol li a.active,
+.sidebar .sidebar-list ol li.has-menu.active > a {
+  color: var(--primary);
+}
+
+.sidebar .sidebar-list ol li.has-menu.active > li:before {
+  background: var(--primary);
+}
+.sidebar .sidebar-list ol li.has-menu.active:before {
+  content: url(../public/activearrowdown.svg);
+}

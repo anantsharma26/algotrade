@@ -3,7 +3,7 @@ import Button from "../components/Buttons/Button";
 import Faq from "../components/Faqs/Faq";
 
 const Strategies = () => {
-  const faqs = [
+  const faqsitem = [
     {
       faqhead: "How to invest in CeDefi Strategies",
       faqdata:
@@ -487,7 +487,7 @@ const Strategies = () => {
                 Strategies
               </p>
             </div>
-            <Faq data={faqs} />
+            <Faq data={faqsitem} />
           </div>
         </div>
       </section>

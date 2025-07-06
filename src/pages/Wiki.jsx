@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../components/Buttons/Button";
+import Sidebar from "../components/Sidebar/sidebar";
 
 const Wiki = () => {
   return (
@@ -7,50 +8,7 @@ const Wiki = () => {
       <section className="tab-panel">
         <div className="container">
           <div className="cols-2">
-            <div className="sidebar">
-              <div className="main-head">
-                <h5>CONTENT</h5>
-              </div>
-              <div className="sidebar-list">
-                <ol className="main-list">
-                  <li className="has-menu">
-                    <a href="#">OVERVIEW</a>
-                  </li>
-                  <li className="has-menu">
-                    <a href="#">INTRODUCTION</a>
-                    <ul className="sub-list">
-                      <li>
-                        <a href="#">Mission</a>
-                      </li>
-                      <li>
-                        <a href="#">Gensis</a>
-                      </li>
-                      <li>
-                        <a href="#">Team</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="has-menu">
-                    <a href="#">TUTORIALS</a>
-                  </li>
-                  <li className="has-menu">
-                    <a href="#">ALGOO TRADING PLATFORM</a>
-                  </li>
-                  <li className="has-menu">
-                    <a href="#">INVESTMENT PRODUCTS</a>
-                  </li>
-                  <li className="has-menu">
-                    <a href="#">RESOURCES</a>
-                  </li>
-                  <li className="has-menu">
-                    <a href="#">FAQ</a>
-                  </li>
-                  <li className="has-menu">
-                    <a href="#">ADDITIONAL RESOURCES</a>
-                  </li>
-                </ol>
-              </div>
-            </div>
+            <Sidebar activeTab={"mission"} />
             <div className="tab-content">
               <div className="content-head">
                 <h5>INTRODUCTION</h5>

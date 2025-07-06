@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -32,21 +33,41 @@ const Footer = () => {
           <div className="ftlink">
             <h5>Resources</h5>
             <ul>
-              <li>Blog</li>
-              <li>Wiki</li>
-              <li>Whitepaper</li>
-              <li>Affiliate Program</li>
-              <li>Terms of use</li>
-              <li>Privacy Policy</li>
+              <li>
+                <Link to={"/blog"}>Blog</Link>
+              </li>
+              <li>
+                <Link to={"/wiki"}>Wiki</Link>
+              </li>
+              <li>
+                <Link to={"#"}>Whitepaper</Link>
+              </li>
+              <li>
+                <Link to={"/affiliate"}>Affiliate Program</Link>
+              </li>
+              <li>
+                <Link to={"/terms"}>Terms of use</Link>
+              </li>
+              <li>
+                <Link to={"/privacy"}>Privacy Policy</Link>
+              </li>
             </ul>
           </div>
           <div className="ftlink second">
             <h5>Help</h5>
             <ul>
-              <li>Contact us</li>
-              <li>Mail</li>
-              <li>KYC</li>
-              <li>FAQ</li>
+              <li>
+                <Link to={"/contact"}>Contact us</Link>
+              </li>
+              <li>
+                <Link to={"#"}>Mail</Link>
+              </li>
+              <li>
+                <Link to={"/kyc"}>KYC</Link>
+              </li>
+              <li>
+                <Link to={"/faq"}>FAQ</Link>
+              </li>
             </ul>
           </div>
           <div className="ftlink third">

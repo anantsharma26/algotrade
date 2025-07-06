@@ -14,6 +14,9 @@ import Footer from "./components/Footer";
 import BlogDetail from "./pages/BlogDetail";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
+import Affiliate from "./pages/Affiliate";
+import FaqMain from "./pages/FaqMain";
+import Kyc from "./pages/Kyc";
 
 function App() {
   return (
@@ -32,6 +35,9 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
+            <Route path="/affiliate" element={<Affiliate />} />
+            <Route path="/faq" element={<FaqMain />} />
+            <Route path="/kyc" element={<Kyc />} />
           </Routes>
         </main>
         <Footer />
